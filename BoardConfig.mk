@@ -72,8 +72,8 @@ BOARD_KERNEL_IMAGE_NAME := Image.gz
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_KERNEL_SEPARATED_DTBO := true
 TARGET_KERNEL_ARCH := arm64
-TARGET_KERNEL_CONFIG := billie_defconfig
-TARGET_KERNEL_SOURCE := kernel/oneplus/billie
+TARGET_KERNEL_CONFIG := billie-perf_defconfig
+TARGET_KERNEL_SOURCE := kernel/oneplus/sm6350
 TARGET_KERNEL_CLANG_COMPILE := true
 
 # Kernel - prebuilt
